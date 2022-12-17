@@ -30,10 +30,6 @@ const NoteScreen = ({navigation, route}) => {
 
   const [note, setNote] = useState([])
 
-  const addNote = () => {
-    
-  }
-
   const  fetchNoteFromDatabase = async() => {
 
     //create a query to fetch data from Parse database

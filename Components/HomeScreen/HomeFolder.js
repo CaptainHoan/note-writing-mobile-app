@@ -19,14 +19,14 @@ const HomeFolder = ({folder, note}) => {
               source={{uri: 'https://clickup.com/blog/wp-content/uploads/2020/01/note-taking.png'}}
               style={{height: 180, width: 180, marginBottom: 30}}
             />
-            <Text style={{fontSize: 20, textAlign: 'center', fontWeight: 'bold', color: 'white'}}>Click <MaterialCommunityIcons name="folder-upload-outline" size={27} color="white" /> to create your own folder and start form your discipline</Text>
+            <Text style={{fontSize: 20, textAlign: 'center', fontWeight: 'bold', color: 'white'}}>Click <MaterialCommunityIcons name="folder-upload-outline" size={27} color="white" /> to create your own folder and start writing your note</Text>
           </View>
         ) // if have data about user's folder => render as below
         : (
           <View>
             <View style={{
               marginTop: 20,
-              backgroundColor: '#353937',
+              backgroundColor: '#4D4D4D',
               padding: 10,
               borderRadius: 15
             }}>
@@ -54,7 +54,7 @@ const HomeFolder = ({folder, note}) => {
                       <Text 
                         style={{fontSize: 17, fontWeight: 'bold', color: 'gray'
                       }}>
-                        30
+                        0
                       </Text>
 
                       <Ionicons name="arrow-forward-circle-outline" size={24} color="gray" style={{marginLeft: 10}}/>

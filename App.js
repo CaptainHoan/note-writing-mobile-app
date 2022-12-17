@@ -10,8 +10,8 @@ import 'react-native-gesture-handler';
 
 Parse.setAsyncStorage(AsyncStorage);
 Parse.initialize(
-  'mtKA7rpR81Kmk1Ga4cI5TdTfhIionrHNUY2gdExF',
-  'JNyiqkeEp0LqoZD7a9tMizYjpymjZZ2TE4i43Oal'
+  '1tydbM61LwJPQ8gZWxbw5o6ELX8E37patOSfOC1Y',
+  '1IjIKKCaDXSsHkpotVVdfD7crSuWRgg48HQcBcdf'
 );
 Parse.serverURL = 'https://parseapi.back4app.com/';
 

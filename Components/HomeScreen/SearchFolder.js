@@ -7,8 +7,8 @@ const SearchFolder = () => {
   return (
     <View style={{flexDirection: 'row', 
     alignItems: 'center',
-    backgroundColor: '#353937',
-    padding: 5,
+    backgroundColor: '#4D4D4D',
+    padding: 10,
     paddingLeft: 10,
     //flex: 1,
     marginTop: 15,
